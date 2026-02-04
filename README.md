@@ -1,7 +1,7 @@
 # Sistema de Cadastro e Controle de Pallets
 Controle de Vencimento de Supermercado / Front-End
 
-<p style="text-align: justify;">Este projeto foi meu primeiro esforço de praticar os fundamentos de **HTML**, **CSS** e **JavaScript** na construção de uma aplicação front-end. O objetivo principal era criar uma interface gráfica para cadastrar, localizar e gerenciar pallets (conjuntos de produtos), incluindo informações essenciais como: </p>
+<p style="text-align: justify;">Este projeto foi meu primeiro contato para praticar os fundamentos de **HTML**, **CSS** e **JavaScript** na construção de uma aplicação front-end. O objetivo principal era criar uma interface gráfica para cadastrar, localizar e gerenciar pallets (conjuntos de produtos), incluindo informações essenciais como: </p>
 
 - Localização do pallet
 - Produtos contidos no pallet
