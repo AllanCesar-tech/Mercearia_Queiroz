@@ -1,0 +1,84 @@
+@font-face {
+    font-family: Mercearia;
+    src: url(fonte/destrod/Destrod\ Only\ For\ Personal\ Use.otf) format('opentype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap');
+
+body {
+    background-image: linear-gradient(to right,#FFB536,#E86D25,#C93529);
+    background-attachment: fixed;
+}
+
+header {
+    position: relative;
+    font-family: 'Mercearia',Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    text-shadow: 1px 1px 2px black;
+}
+
+header > h1 {
+    margin-bottom: 0px;
+
+}
+
+#logo {
+    position: absolute;
+    left: 0;
+    width: 300px;
+}
+
+main {
+    position: relative;
+    padding-top: 65px;
+}
+
+.imagem {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+}
+
+
+#pallets {
+    right: 0px;
+    top: 0px;
+}
+
+div {
+    text-align: center;
+    background-color: lightgray;
+    border-radius: 10px;
+    width: 500px;
+    height: 400px;
+    padding: 8px;
+    margin: auto;
+    box-shadow: 2px 2px 3px black;
+
+}
+
+
+
+input {
+    cursor: pointer;
+}
+
+.nomePallet {
+    margin: 0px;
+}
+
+.icones {
+    display: inline;
+    margin-inline: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+footer {
+    font-family: 'Merriweather';
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+}

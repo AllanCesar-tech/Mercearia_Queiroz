@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercearia Queiroz</title>
+    <link rel="shortcut icon" href="imagens/queirozIcon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="iniciar()">
+    <header>
+        <img src="imagens/queirozLogoMenor2.png" alt="logo" id="logo">
+        <h1>Gerenciador da Mercearia</h1>
+    </header>
+    
+    <main>
+        <img class="imagem" src="imagens/empilhadeira.png" alt="empilhadeira">
+        <div id="Principal">
+            <p>
+                <label for="Corredor">Escolha o Corredor:</label>
+                <select name="Corredor" id="Corredores">
+                    <option value="">--Escolha--</option>
+                    <option value="Enlatados">Enlatados</option>
+                    <option value="Café e Leite">Café e Leite</option>
+                    <option value="Limpeza">Limpeza</option>
+                </select>
+            </p>
+        
+            <p>
+                <label for="Espaço">Onde está localizado o Pallet?</label>
+                <select name="Espaço" id="Espaço">
+                    <option value="">--Escolha--</option>
+                    <option value="Aéreo">Áreo</option>
+                    <option value="Sub-Aéreo">Sub-Aéreo</option>
+                    <option value="Gaveta">Gaveta</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="lado">Qual lado está o pallet?</label>
+                <select name="orientação" id="Lado">
+                    <option value="">--Escolha--</option>
+                    <option value="Ímpar">Ímpar</option>
+                    <option value="Par">Par</option>
+                </select>
+            </p>
+        
+            <input type="button" value="Verificar" onclick="Verificar()"> <br>
+            <span id="res"></span>
+        </div>
+
+        <img id="pallets" src="imagens/pallet.png" alt="Pallet" class="imagem">
+    </main>
+
+    <footer>
+        <p>&copy; Projeto de Allan Barreto</p> 
+    </footer>
+
+    <script src="script.js"></script>
+
+    <!--p>(p{Nºi}+img.icones[src="imagens/palletico.png" alt="Pallet"])*36-->
+    
+
+</body>
+</html>
